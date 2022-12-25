@@ -1,0 +1,71 @@
+body{
+    height: 552px;
+    background-color: hsl(212, 45%, 89%);
+}
+.card{
+    position: relative;
+    left: 38%;
+    width: 277px;
+    border-radius: 21px;
+    height: 420px;
+    top: 40px;
+    background-color: hsl(0, 0%, 100%);
+}
+.card img{
+    width: 257px;
+    padding: 9px;
+    border-radius: 21px;
+}
+.bold{
+    line-height: 0.3;
+}
+.p2{
+    font-size: 20px;
+    position: relative;
+    left: 34px;
+    color: hsl(218, 44%, 22%);
+}
+.card .p{
+    font-size: 20px;
+    position: relative;
+    left: 27px;
+    color: hsl(218, 44%, 22%); 
+}
+.bold :nth-child(3){
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 1.4;
+    width: 195px;
+    position: relative;
+    left: 42px;
+    color: hsl(212, 45%, 89%)
+}
+.a{
+    color: hsl(220, 15%, 55%);
+    font-size: 13px;
+    position: relative;
+    left: 14%;
+    top: 12px;
+}
+.s{
+    position: relative;
+    left: 6%;
+    color: hsl(220, 15%, 55%);
+    top: 8px;
+}.d{
+    position: relative;
+    top: 8px;
+    left: 33%;
+    color: hsl(220, 15%, 55%)
+}
+@media (max-width: 375px){
+    .card{
+        position: relative;
+        left: 7%;
+        width: 264px;
+        height: 450px;
+    }
+    .card img{
+        width: 247px;
+    }
+}
